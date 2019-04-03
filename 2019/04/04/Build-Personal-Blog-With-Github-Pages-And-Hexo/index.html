@@ -96,13 +96,20 @@
 
 
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Leonard&#39;s Blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="使用Github Pages和Hexo搭建个人博客1. 创建仓库及本地电脑准备工作1.1 创建本地仓库有关创建仓库的过程在Github上已经给出了较为直观的步骤 链接，总的来说就是在Github上创建一个{username/orgaization name}.github.io的仓库。 1.2 检出仓库正常来说，只用http的方式检出仓库就可以了，但是这里采用ssh的方式检出仓库，这里需要生成公钥">
+<meta name="keywords" content="Git,Github,Hexo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用Github Pages和Hexo搭建个人博客">
+<meta property="og:url" content="http://yoursite.com/2019/04/04/Build-Personal-Blog-With-Github-Pages-And-Hexo/index.html">
 <meta property="og:site_name" content="Leonard&#39;s Blog">
+<meta property="og:description" content="使用Github Pages和Hexo搭建个人博客1. 创建仓库及本地电脑准备工作1.1 创建本地仓库有关创建仓库的过程在Github上已经给出了较为直观的步骤 链接，总的来说就是在Github上创建一个{username/orgaization name}.github.io的仓库。 1.2 检出仓库正常来说，只用http的方式检出仓库就可以了，但是这里采用ssh的方式检出仓库，这里需要生成公钥">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http://yoursite.com/uploads/Build-Personal-Blog-With-Github-Pages-And-Hexo/001_Windows_Generate_SSH_Key.png">
+<meta property="og:updated_time" content="2019-04-03T18:15:57.070Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Leonard&#39;s Blog">
+<meta name="twitter:title" content="使用Github Pages和Hexo搭建个人博客">
+<meta name="twitter:description" content="使用Github Pages和Hexo搭建个人博客1. 创建仓库及本地电脑准备工作1.1 创建本地仓库有关创建仓库的过程在Github上已经给出了较为直观的步骤 链接，总的来说就是在Github上创建一个{username/orgaization name}.github.io的仓库。 1.2 检出仓库正常来说，只用http的方式检出仓库就可以了，但是这里采用ssh的方式检出仓库，这里需要生成公钥">
+<meta name="twitter:image" content="http://yoursite.com/uploads/Build-Personal-Blog-With-Github-Pages-And-Hexo/001_Windows_Generate_SSH_Key.png">
 
 
 
@@ -110,7 +117,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/">
+  <link rel="canonical" href="http://yoursite.com/2019/04/04/Build-Personal-Blog-With-Github-Pages-And-Hexo/">
 
 
 
@@ -120,7 +127,7 @@
   };
 </script>
 
-  <title>Leonard's Blog</title>
+  <title>使用Github Pages和Hexo搭建个人博客 | Leonard's Blog</title>
   
 
 
@@ -168,8 +175,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -207,7 +213,7 @@
         
         
           
-          <li class="menu-item menu-item-home menu-item-active">
+          <li class="menu-item menu-item-home">
 
     
     
@@ -371,9 +377,9 @@
           
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -405,10 +411,8 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/04/04/Build-Personal-Blog-With-Github-Pages-And-Hexo/" class="post-title-link" itemprop="url">使用Github Pages和Hexo搭建个人博客</a>
+          <h1 class="post-title" itemprop="name headline">使用Github Pages和Hexo搭建个人博客
+
               
             
           </h1>
@@ -490,9 +494,7 @@
       
 
       
-        
-          
-            <h1 id="使用Github-Pages和Hexo搭建个人博客"><a href="#使用Github-Pages和Hexo搭建个人博客" class="headerlink" title="使用Github Pages和Hexo搭建个人博客"></a>使用Github Pages和Hexo搭建个人博客</h1><h2 id="1-创建仓库及本地电脑准备工作"><a href="#1-创建仓库及本地电脑准备工作" class="headerlink" title="1. 创建仓库及本地电脑准备工作"></a>1. 创建仓库及本地电脑准备工作</h2><h3 id="1-1-创建本地仓库"><a href="#1-1-创建本地仓库" class="headerlink" title="1.1 创建本地仓库"></a>1.1 创建本地仓库</h3><p>有关创建仓库的过程在Github上已经给出了较为直观的步骤 <a href="https://pages.github.com/" target="_blank" rel="noopener">链接</a>，总的来说就是在Github上创建一个{username/orgaization name}.github.io的仓库。</p>
+        <h1 id="使用Github-Pages和Hexo搭建个人博客"><a href="#使用Github-Pages和Hexo搭建个人博客" class="headerlink" title="使用Github Pages和Hexo搭建个人博客"></a>使用Github Pages和Hexo搭建个人博客</h1><h2 id="1-创建仓库及本地电脑准备工作"><a href="#1-创建仓库及本地电脑准备工作" class="headerlink" title="1. 创建仓库及本地电脑准备工作"></a>1. 创建仓库及本地电脑准备工作</h2><h3 id="1-1-创建本地仓库"><a href="#1-1-创建本地仓库" class="headerlink" title="1.1 创建本地仓库"></a>1.1 创建本地仓库</h3><p>有关创建仓库的过程在Github上已经给出了较为直观的步骤 <a href="https://pages.github.com/" target="_blank" rel="noopener">链接</a>，总的来说就是在Github上创建一个{username/orgaization name}.github.io的仓库。</p>
 <h3 id="1-2-检出仓库"><a href="#1-2-检出仓库" class="headerlink" title="1.2 检出仓库"></a>1.2 检出仓库</h3><p>正常来说，只用http的方式检出仓库就可以了，但是这里采用ssh的方式检出仓库，这里需要生成公钥，在centos或者其它linux系统上，这个步骤较为简单，但是在windows上来说，生成的步骤相对来说麻烦一点</p>
 <h4 id="1-2-1-生成秘钥"><a href="#1-2-1-生成秘钥" class="headerlink" title="1.2.1 生成秘钥"></a>1.2.1 生成秘钥</h4><ol>
 <li><p>下载并安装Git<br><a href="https://git-scm.com/download/win" target="_blank" rel="noopener">Windows下载链接</a>，下载完成后安装<br><a href="https://git-scm.com/download/linux" target="_blank" rel="noopener">Linux下载及安装步骤</a></p>
@@ -525,8 +527,6 @@
 </li>
 </ol>
 
-          
-        
       
     </div>
 
@@ -547,14 +547,24 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/Git/" rel="tag"># Git</a>
+          
+            <a href="/tags/Github/" rel="tag"># Github</a>
+          
+            <a href="/tags/Hexo/" rel="tag"># Hexo</a>
+          
+        </div>
+      
+
+      
+      
+      
 
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -564,14 +574,15 @@
   </article>
 
 
-    
-  </section>
-
-  
+  </div>
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -591,8 +602,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -672,6 +692,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#使用Github-Pages和Hexo搭建个人博客"><span class="nav-number">1.</span> <span class="nav-text">使用Github Pages和Hexo搭建个人博客</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-创建仓库及本地电脑准备工作"><span class="nav-number">1.1.</span> <span class="nav-text">1. 创建仓库及本地电脑准备工作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-1-创建本地仓库"><span class="nav-number">1.1.1.</span> <span class="nav-text">1.1 创建本地仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-2-检出仓库"><span class="nav-number">1.1.2.</span> <span class="nav-text">1.2 检出仓库</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-2-1-生成秘钥"><span class="nav-number">1.1.2.1.</span> <span class="nav-text">1.2.1 生成秘钥</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2-2-安装主题"><span class="nav-number">1.1.2.2.</span> <span class="nav-text">2.2.2 安装主题</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#注意"><span class="nav-number">1.2.</span> <span class="nav-text">注意</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#附录"><span class="nav-number">1.3.</span> <span class="nav-text">附录</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -808,6 +845,10 @@
 
 
   
+  <script src="/js/scrollspy.js?v=7.1.0"></script>
+<script src="/js/post-details.js?v=7.1.0"></script>
+
+
 
   
 
@@ -823,6 +864,8 @@
 
   
 
+
+  
 
 
   
